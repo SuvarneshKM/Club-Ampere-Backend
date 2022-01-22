@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stafs",
+  "info": {
+    "singularName": "staf",
+    "pluralName": "stafs",
+    "displayName": "staf",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

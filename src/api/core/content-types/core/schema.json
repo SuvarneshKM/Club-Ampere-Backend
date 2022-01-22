@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cores",
+  "info": {
+    "singularName": "core",
+    "pluralName": "cores",
+    "displayName": "core"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
