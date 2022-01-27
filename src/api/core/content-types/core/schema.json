@@ -4,7 +4,8 @@
   "info": {
     "singularName": "core",
     "pluralName": "cores",
-    "displayName": "core"
+    "displayName": "core",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -18,13 +19,7 @@
       "type": "string"
     },
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "text"
     }
   }
 }
